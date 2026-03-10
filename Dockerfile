@@ -1,7 +1,7 @@
 FROM eclipse-temurin:17-jdk-jammy
 WORKDIR /app
 
-COPY target/demo.jar app.jar
+COPY target/*.jar app.jar
 
 EXPOSE 8989
 
